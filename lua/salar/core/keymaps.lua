@@ -38,3 +38,15 @@ keymap.set("n", "<leader>tp", "<cmd>ThemePrev<CR>", { desc = "Previous theme" })
 
 -- terminal related
 keymap.set("t", "<Esc>", [[<C-\><C-n>]])
+
+
+-- move lines
+
+keymap.set("n", "<C-Up>", ":m .-2<CR>==")
+keymap.set("n", "<C-Down>", ":m .+1<CR>==")
+keymap.set("v", "<C-Up>", ":m .-2<CR>==")
+keymap.set("v", "<C-Down>", ":m .+1<CR>==")
+
+
+keymap.set("n", "<C-k>", ":move .-2<CR>==")
+keymap.set("n", "<C-j>", ":move .+1<CR>==")
