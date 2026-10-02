@@ -147,7 +147,7 @@ return {
 				"clangd",
 				"--background-index",
 				"--clang-tidy",
-				"--query-driver=/usr/bin/c++,/usr/bin/g++",
+				"--query-driver=C:/msys64/ucrt64/bin/g++.exe",
 			},
 		})
 		vim.lsp.enable("clangd")
