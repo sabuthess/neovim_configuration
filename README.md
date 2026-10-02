@@ -28,7 +28,7 @@ A focused Neovim setup for day-to-day coding, with fast navigation, LSP-backed e
 Back up your existing config first, then clone this repo into Neovim's config directory:
 
 ```sh
-git clone <repo-url> ~/.config/nvim
+git clone <repo-url> "$env:LOCALAPPDATA\nvim"
 nvim
 ```
 
